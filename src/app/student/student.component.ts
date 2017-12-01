@@ -6,9 +6,9 @@ import { Student } from '../models/Student';
   styleUrls: ['./student.component.css']
 })
 export class StudentComponent implements OnInit {
-
+// Student array
   studentList: Student[];
-
+// initializing the studentlist array
   constructor() {
     this.studentList = [
       {
